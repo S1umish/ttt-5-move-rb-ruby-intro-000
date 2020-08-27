@@ -21,4 +21,4 @@ puts "where would you like to go"
    index = input_to_index(input)
    move(board,index)
    display_board(board)
-end
+ end 
