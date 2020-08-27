@@ -16,9 +16,9 @@ def move(board, position, char="X")
   board[position] = char
 end
 
-puts"where would you like to go"
-  input = gets.strip
-  index = input_to_index(input)
-  move(board,index)
-  display_board(board)
+puts "where would you like to go"
+   input = gets.strip
+   index = input_to_index(input)
+   move(board,index)
+   display_board(board)
 end
